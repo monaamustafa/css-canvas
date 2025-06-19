@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Canvas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
     <style>
         body, html {
             margin: 0;
             padding: 0;
             width: 100%;
             height: 100%;
+
         }
         canvas {
             display: block;
@@ -18,11 +22,25 @@
             background: #000;
             border: none;
         }
+        h1{
+  font-family: "Odibee Sans", sans-serif;
+font-size: 120px;
+text-align: center;
+color: #fff;
+/* add position */
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+        }
     </style>
 </head>
 <body>
     
     <canvas id="canvas"></canvas>
+    <h1
+        >CSS &lt;Canvas /&gt;
+        </h1>
     <script src="main.js"></script>
 </body>
 </html>
